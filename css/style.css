@@ -412,13 +412,14 @@ a:focus{
 .regular__customers__section li:hover,
 .regular__customers__section li:focus   {
     border: 3px solid var(--blue);
+
 }
 
-.regular__customers__item:hover .icon__regular__customers,
+.regular__customers__item:hover .icon__regular__customers, 
 .regular__customers__item:focus .icon__regular__customers {
-    fill: var(--blue);
+    fill:var(--blue); 
     
-}
+} 
 
 .regular__customers__section li,
 .regular__customers__item .icon__regular__customers {
@@ -565,18 +566,18 @@ a:focus{
     vertical-align: middle;
     fill: var(--white);
     transition-property: fill;
-    transition-duration: 250ms;
+    transition-duration: 250ms, 250ms, 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-form__btn:hover 
+.footer-form__btn:hover, 
 .footer-form__btn:focus {
     fill: var(--blue);
 }
 
-.footer-form__svg:hover
+.footer-form__svg:hover,
 .footer-form__svg:focus {
-    fill: var(--blue); 
+    fill: var(--blue);
 }
 
 .footer-form__input:hover {
